@@ -1,8 +1,5 @@
 - 👋 Hi, I’m @Theodorebinda
-- 👀 I’m interested in JS
-- 🌱 I’m currently learning 
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+- 🌱 I am a Full stack developer
 
 <!---
 Theodorebinda/Theodorebinda is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
