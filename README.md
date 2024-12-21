@@ -1,5 +1,8 @@
-- 👋 Hi, I’m @Theodorebinda
+# 👋 Hi,
+ I’m  Theodore Binda
 - 🌱 I am a Full stack developer
+- Otaku at heart
+- passionate about UI/UX design
 
 <!---
 Theodorebinda/Theodorebinda is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
