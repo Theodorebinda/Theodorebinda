@@ -30,7 +30,7 @@ You can click the Preview link to take a look at your changes.
     <img src="https://skillicons.dev/icons?i=adonis" alt="Adonis" />
     <img src="https://skillicons.dev/icons?i=postgres" alt="PostgreSQL" />
     <img src="https://skillicons.dev/icons?i=figma" alt="Figma" />
-    <!--<img src="https://skillicons.dev/icons?i=py" alt="Python" /> -->
+    <img src="https://skillicons.dev/icons?i=py" alt="Python" />
     <!--<img src="https://skillicons.dev/icons?i=django" alt="Django" />-->
     <img src="https://skillicons.dev/icons?i=flutter" alt="Flutter" />
     <img src="https://skillicons.dev/icons?i=dart" alt="Dart" />
