@@ -20,6 +20,7 @@ You can click the Preview link to take a look at your changes.
     <img src="https://skillicons.dev/icons?i=wordpress" alt="WordPress" />
     <img src="https://skillicons.dev/icons?i=html" alt="HTML" />
     <img src="https://skillicons.dev/icons?i=css" alt="CSS" />
+  <img src="https://skillicons.dev/icons?i=prisma" alt="Prisma" />
     <img src="https://skillicons.dev/icons?i=js" alt="JavaScript" />
     <img src="https://skillicons.dev/icons?i=ts" alt="TypeScript" />
     <img src="https://skillicons.dev/icons?i=tailwind" alt="Tailwind CSS" />
