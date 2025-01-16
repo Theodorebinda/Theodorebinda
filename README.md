@@ -1,7 +1,6 @@
 # 👋 Hi, I’m  Theodore
   
 - 🌱 Full stack developer
-- ☺️ Otaku at heart
 - 💅 passionate about UI/UX design
   
 ## Technologies
