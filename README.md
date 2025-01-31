@@ -1,7 +1,7 @@
 # 👋 Hi, I’m  Theodore
   
 - 🌱 Full stack developer
-- 💅 passionate about UI/UX design
+
   
 ## Technologies
 
