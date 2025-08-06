@@ -1,12 +1,12 @@
-name: Daily Commit
+name: Fun Daily Commit 🚀
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Tous les jours à minuit UTC
-  workflow_dispatch:  # Permet de lancer manuellement
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
-  commit:
+  daily_fun:
     runs-on: ubuntu-latest
 
     steps:
@@ -14,21 +14,40 @@ jobs:
         uses: actions/checkout@v4
         with:
           persist-credentials: true
-          fetch-depth: 0  # Important pour pouvoir faire un pull avec rebase
+          fetch-depth: 0
 
       - name: Configurer Git
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
 
-      - name: Tirer les dernières modifications (pull --rebase)
+      - name: Tirer les dernières modifications
         run: git pull origin main --rebase
 
-      - name: Générer/modifier daily-commit.txt et committer
+      - name: Générer une citation avec un emoji fun et un compteur
         run: |
-          date > daily-commit.txt
-          git add daily-commit.txt
-          git commit -m "Commit quotidien - $(date)" || echo "Aucun changement à committer"
+         
+          if [ -f "activity.log" ]; then
+            count=$(tail -n 1 activity.log | grep -oE 'Jour [0-9]+' | grep -oE '[0-9]+')
+            count=$((count + 1))
+          else
+            count=1
+          fi
 
-      - name: Pousser les modifications
-        run: git push origin main
+         
+          emojis=("🚀" "🔥" "🌞" "🎉" "✨" "🌈" "💡" "🧠" "🌍" "💻" "☕" "📚" "🌱")
+          emoji=${emojis[$((RANDOM % ${#emojis[@]}))]}
+
+          # Récupérer une citation depuis l'API
+          quote=$(curl -s https://api.quotable.io/random | jq -r '.content + " — " + .author')
+
+          # Écrire dans le fichier
+          echo "Jour $count $emoji - $(date)" > activity.log
+          echo "" >> activity.log
+          echo "💬 \"$quote\"" >> activity.log
+
+      - name: Commit & Push
+        run: |
+          git add activity.log
+          git commit -m "✨ Jour $count - Commit quotidien avec inspiration et style!" || echo "Rien à committer"
+          git push origin main
