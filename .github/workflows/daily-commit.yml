@@ -1,0 +1,20 @@
+name: Daily Commit
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Exécution quotidienne à minuit UTC
+  workflow_dispatch:
+
+jobs:
+  commit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Faire un commit quotidien
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          date > daily-commit.txt
+          git add daily-commit.txt
+          git commit -m "Commit quotidien - $(date)"
+          git push
