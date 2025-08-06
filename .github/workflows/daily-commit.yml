@@ -2,8 +2,8 @@ name: Daily Commit
 
 on:
   schedule:
-    - cron: '0 0 * * *'
-  workflow_dispatch:
+    - cron: '0 0 * * *'  # Tous les jours à minuit UTC
+  workflow_dispatch:  # Permet de lancer manuellement
 
 jobs:
   commit:
@@ -12,21 +12,23 @@ jobs:
     steps:
       - name: Checkout du dépôt
         uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 0  # Important pour pouvoir faire un pull avec rebase
 
       - name: Configurer Git
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
 
-      - name: Mettre à jour les dernières modifications distantes
-        run: |
-          git pull origin main --rebase
+      - name: Tirer les dernières modifications (pull --rebase)
+        run: git pull origin main --rebase
 
-      - name: Faire un commit quotidien
+      - name: Générer/modifier daily-commit.txt et committer
         run: |
           date > daily-commit.txt
           git add daily-commit.txt
-          git commit -m "Commit quotidien - $(date)" || echo "Rien à committer"
+          git commit -m "Commit quotidien - $(date)" || echo "Aucun changement à committer"
 
       - name: Pousser les modifications
         run: git push origin main
