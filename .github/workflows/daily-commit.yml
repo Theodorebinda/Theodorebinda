@@ -17,4 +17,5 @@ jobs:
           date > daily-commit.txt
           git add daily-commit.txt
           git commit -m "Commit quotidien - $(date)"
+          git pull --rebase origin main  # <-- Ajoutez cette ligne
           git push
