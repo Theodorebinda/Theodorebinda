@@ -21,7 +21,5 @@
 
 <img src="https://profile-counter.glitch.me/theodorebinda/count.svg" />
 
-![GitHub Streak](https://streak-stats.demolab.com?user=Theodorebinda&theme=dark&hide_border=true)
-
 
 
