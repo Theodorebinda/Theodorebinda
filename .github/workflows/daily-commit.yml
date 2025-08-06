@@ -2,20 +2,31 @@ name: Daily Commit
 
 on:
   schedule:
-    - cron: '0 0 * * *' 
+    - cron: '0 0 * * *'  # tous les jours à minuit UTC
   workflow_dispatch:
 
 jobs:
   commit:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
-      - name: Faire un commit quotidien
+      - name: Checkout du dépôt
+        uses: actions/checkout@v4
+
+      - name: Configurer Git
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+
+      - name: Mettre à jour les dernières modifications distantes
+        run: |
+          git pull origin main --rebase
+
+      - name: Faire un commit quotidien
+        run: |
           date > daily-commit.txt
           git add daily-commit.txt
-          git commit -m "Commit quotidien - $(date)"
-          git pull --rebase origin main  # <-- Ajoutez cette ligne
-          git push
+          git commit -m "Commit quotidien - $(date)" || echo "Rien à committer"
+
+      - name: Pousser les modifications
+        run: git push origin main
