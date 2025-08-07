@@ -24,8 +24,8 @@ jobs:
       - name: 📚 Installer jq (pour la gestion JSON, optionnel)
         run: sudo apt-get install jq
 
-      - name: 🚀 Installer les dépendances (si tu en as)
-        run: npm install
+    #   - name: 🚀 Installer les dépendances (si tu en as)
+        # run: npm install
         # ou `npm ci` si tu as un package-lock.json
 
       - name: 🧠 Exécuter le script de mise à jour
