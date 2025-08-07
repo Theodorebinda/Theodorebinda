@@ -1,0 +1,43 @@
+name: 🦾 Update Fun README Daily
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Chaque jour à minuit UTC
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 🛎️ Checkout le dépôt
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 0
+
+      - name: 📦 Installer Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18' # ou 20 si tu veux
+
+      - name: 📚 Installer jq (pour la gestion JSON, optionnel)
+        run: sudo apt-get install jq
+
+      - name: 🚀 Installer les dépendances (si tu en as)
+        run: npm install
+        # ou `npm ci` si tu as un package-lock.json
+
+      - name: 🧠 Exécuter le script de mise à jour
+        run: node scripts/update-readme.js
+
+      - name: 🔄 Tirer les dernières modifs (juste au cas où)
+        run: git pull origin main --rebase
+
+      - name: 💾 Commit et push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          git commit -m "📝 Mise à jour automatique du README - $(date)" || echo "Rien à committer"
+          git push origin main
