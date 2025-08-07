@@ -42,4 +42,5 @@ jobs:
           git config --local user.name "GitHub Action"
           git add README.md
           git commit -m "📝 Mise à jour automatique du README - $(date)" || echo "Rien à committer"
+          git pull origin main  # Simple pull sans rebase pour éviter les conflits
           git push origin main
