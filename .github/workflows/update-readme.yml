@@ -23,9 +23,7 @@ jobs:
 
       - name: 📚 Installer jq (pour la gestion JSON, optionnel)
         run: sudo apt-get install jq
-        
-      - name: 🔄 Tirer les dernières modifications avant toute modification
-        run: git pull origin main
+
     #   - name: 🚀 Installer les dépendances (si tu en as)
         # run: npm install
         # ou `npm ci` si tu as un package-lock.json
