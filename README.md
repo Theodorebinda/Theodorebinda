@@ -19,11 +19,11 @@
 
 ## Devise
 
-📅 Aujourd'hui : <#today_date>
+📅 Aujourd'hui : jeudi 7 août 2025
 
-⏳ Jusqu'à la nouvelle année : <#day_before_new_years>
+⏳ Jusqu'à la nouvelle année : 147
 
-🔧 Automatisé par : <#gabot_signing>
+🔧 Automatisé par : 🤖 Gabot (v1.0)
 
 
 
