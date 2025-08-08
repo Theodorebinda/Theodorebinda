@@ -27,35 +27,33 @@ jobs:
       - name: 🔄 Tirer les dernières modifications
         run: git pull origin main --rebase
 
-      - name: ✍️ Générer une citation avec emoji et compteur
+      - name: ✍️ Générer et insérer la citation dans README
         run: |
-          set +e # Ne pas arrêter si une commande échoue
+          set +e
 
-          # Déterminer le compteur
-          if [ -f "activity.log" ]; then
-            last_count=$(grep -oE 'Jour [0-9]+' activity.log | tail -n 1 | grep -oE '[0-9]+' || echo 0)
+          # Compteur basé sur README
+          if grep -q "Jour [0-9]\+" README.md; then
+            last_count=$(grep -oE 'Jour [0-9]+' README.md | tail -n 1 | grep -oE '[0-9]+' || echo 0)
             count=$((last_count + 1))
           else
             count=1
           fi
 
-          # Liste d'emojis
+          # Emojis
           emojis=("🚀" "🔥" "🌞" "🎉" "✨" "🌈" "💡" "🧠" "🌍" "💻" "☕" "📚" "🌱")
           emoji=${emojis[$((RANDOM % ${#emojis[@]}))]}
 
-          # Récupérer une citation (fallback si API KO)
+          # Citation (fallback si API KO)
           quote=$(curl -s https://api.quotable.io/random | jq -r '.content + " — " + .author' || echo "Reste motivé et continue — Inconnu")
 
-          # Ajouter au fichier (append)
-          {
-            echo "Jour $count $emoji - $(date)"
-            echo ""
-            echo "💬 \"$quote\""
-            echo ""
-          } >> activity.log
+          # Texte à insérer
+          new_block="<!--START_QUOTE-->\nJour $count $emoji - $(date '+%d %B %Y')\n\n💬 \"$quote\"\n<!--END_QUOTE-->"
+
+          # Remplacer dans README
+          sed -i "/<!--START_QUOTE-->/, /<!--END_QUOTE-->/c$new_block" README.md
 
       - name: 💾 Commit & Push
         run: |
-          git add activity.log
-          git commit -m "✨ Jour $count - Inspiration quotidienne" || echo "Rien à committer"
+          git add README.md
+          git commit -m "✨ Jour $count - Mise à jour citation quotidienne" || echo "Rien à committer"
           git push origin main
