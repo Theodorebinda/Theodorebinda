@@ -25,8 +25,8 @@ jobs:
       - name: Tirer les dernières modifications
         run: git pull origin main --rebase
 
-      - name: Installer les dépendances
-        run: sudo apt-get install -y jq
+      - name: Installer jq
+        run: sudo apt-get update && sudo apt-get install -y jq
 
       - name: Générer une citation avec un emoji fun et un compteur
         run: |
