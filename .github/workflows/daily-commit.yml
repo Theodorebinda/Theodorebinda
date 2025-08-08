@@ -29,6 +29,8 @@ jobs:
 
       - name: ✍️ Générer une citation avec emoji et compteur
         run: |
+          set +e # Ne pas arrêter si une commande échoue
+
           # Déterminer le compteur
           if [ -f "activity.log" ]; then
             last_count=$(grep -oE 'Jour [0-9]+' activity.log | tail -n 1 | grep -oE '[0-9]+' || echo 0)
@@ -41,8 +43,8 @@ jobs:
           emojis=("🚀" "🔥" "🌞" "🎉" "✨" "🌈" "💡" "🧠" "🌍" "💻" "☕" "📚" "🌱")
           emoji=${emojis[$((RANDOM % ${#emojis[@]}))]}
 
-          # Récupérer une citation depuis l'API (si échec → valeur par défaut)
-          quote=$(curl -s https://api.quotable.io/random | jq -r '.content + " — " + .author' || echo "Reste motivé et continue d'apprendre — Inconnu")
+          # Récupérer une citation (fallback si API KO)
+          quote=$(curl -s https://api.quotable.io/random | jq -r '.content + " — " + .author' || echo "Reste motivé et continue — Inconnu")
 
           # Ajouter au fichier (append)
           {
