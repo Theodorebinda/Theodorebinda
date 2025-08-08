@@ -19,7 +19,7 @@
 
 ## Citation du jour
 <!--START_QUOTE-->
-Jour 3 🌍 - vendredi 8 août 2025
+Jour 4 📚 - vendredi 8 août 2025
 
 💬 "Reste motivé et continue — Inconnu"
 <!--END_QUOTE-->
