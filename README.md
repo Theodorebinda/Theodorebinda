@@ -19,7 +19,7 @@
 
 ## Citation du jour
 <!--START_QUOTE-->
-Jour 1 ☕ - 08 August 2025
+Jour 2 🔥 - 08 August 2025
 
 💬 ""
 <!--END_QUOTE-->
