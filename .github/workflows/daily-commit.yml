@@ -15,6 +15,7 @@ jobs:
         with:
           persist-credentials: true
           fetch-depth: 0
+      
 
       - name: Configurer Git
         run: |
@@ -23,6 +24,9 @@ jobs:
 
       - name: Tirer les dernières modifications
         run: git pull origin main --rebase
+
+      - name: Installer les dépendances
+        run: sudo apt-get install -y jq
 
       - name: Générer une citation avec un emoji fun et un compteur
         run: |
