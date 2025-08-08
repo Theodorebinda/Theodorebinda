@@ -2,7 +2,7 @@ name: Fun Daily Commit 🚀
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 0 * * *' # Tous les jours à minuit UTC
   workflow_dispatch:
 
 jobs:
@@ -10,48 +10,50 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout du dépôt
+      - name: 🛎️ Checkout du dépôt
         uses: actions/checkout@v4
         with:
           persist-credentials: true
           fetch-depth: 0
-      
 
-      - name: Configurer Git
+      - name: 📦 Installer jq
+        run: sudo apt-get update && sudo apt-get install -y jq
+
+      - name: ⚙️ Configurer Git
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
 
-      - name: Tirer les dernières modifications
+      - name: 🔄 Tirer les dernières modifications
         run: git pull origin main --rebase
 
-      - name: Installer jq
-        run: sudo apt-get update && sudo apt-get install -y jq
-
-      - name: Générer une citation avec un emoji fun et un compteur
+      - name: ✍️ Générer une citation avec emoji et compteur
         run: |
-         
+          # Déterminer le compteur
           if [ -f "activity.log" ]; then
-            count=$(tail -n 1 activity.log | grep -oE 'Jour [0-9]+' | grep -oE '[0-9]+')
-            count=$((count + 1))
+            last_count=$(grep -oE 'Jour [0-9]+' activity.log | tail -n 1 | grep -oE '[0-9]+' || echo 0)
+            count=$((last_count + 1))
           else
             count=1
           fi
 
-         
+          # Liste d'emojis
           emojis=("🚀" "🔥" "🌞" "🎉" "✨" "🌈" "💡" "🧠" "🌍" "💻" "☕" "📚" "🌱")
           emoji=${emojis[$((RANDOM % ${#emojis[@]}))]}
 
-          # Récupérer une citation depuis l'API
-          quote=$(curl -s https://api.quotable.io/random | jq -r '.content + " — " + .author')
+          # Récupérer une citation depuis l'API (si échec → valeur par défaut)
+          quote=$(curl -s https://api.quotable.io/random | jq -r '.content + " — " + .author' || echo "Reste motivé et continue d'apprendre — Inconnu")
 
-          # Écrire dans le fichier
-          echo "Jour $count $emoji - $(date)" > activity.log
-          echo "" >> activity.log
-          echo "💬 \"$quote\"" >> activity.log
+          # Ajouter au fichier (append)
+          {
+            echo "Jour $count $emoji - $(date)"
+            echo ""
+            echo "💬 \"$quote\""
+            echo ""
+          } >> activity.log
 
-      - name: Commit & Push
+      - name: 💾 Commit & Push
         run: |
           git add activity.log
-          git commit -m "✨ Jour $count - Commit quotidien avec inspiration et style!" || echo "Rien à committer"
+          git commit -m "✨ Jour $count - Inspiration quotidienne" || echo "Rien à committer"
           git push origin main
