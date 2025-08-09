@@ -24,11 +24,6 @@ Jour 4 📚 - vendredi 8 août 2025
 💬 "Reste motivé et continue — Inconnu"
 <!--END_QUOTE-->
 
-## Conte à Rebours
-
-📅 Aujourd'hui : jeudi 7 août 2025
-
-⏳ Jusqu'à la nouvelle année : 147
 
 🔧 Automatisé par : 🤖 Gabot (v1.0)
 
