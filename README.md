@@ -19,7 +19,7 @@
 
 ## Citation du jour
 <!--START_QUOTE-->
-Jour 12 🌞 - 12 August 2025
+Jour 13 ☕ - 12 August 2025
 
 💬 ""
 <!--END_QUOTE-->
