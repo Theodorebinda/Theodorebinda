@@ -19,9 +19,9 @@
 
 ## Citation du jour
 <!--START_QUOTE-->
-Jour 67 🌞 - lundi 8 septembre 2025
+Jour 68 🌱 - 08 September 2025
 
-💬 "Reste motivé et continue — Inconnu"
+💬 ""
 <!--END_QUOTE-->
 
 
