@@ -2,7 +2,7 @@ name: Fun Daily Commit 🚀
 
 on:
   schedule:
-    - cron: '0 2 * * *' # Tous les jours à minuit UTC
+    - cron: '0 0 * * *' # Tous les jours à minuit UTC
   workflow_dispatch:
 
 jobs:
