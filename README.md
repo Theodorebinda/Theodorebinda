@@ -19,9 +19,9 @@
 
 ## Citation du jour
 <!--START_QUOTE-->
-Jour 87 🌈 - 17 September 2025
+Jour 88 🌈 - jeudi 18 septembre 2025
 
-💬 ""
+💬 "Reste motivé et continue — Inconnu"
 <!--END_QUOTE-->
 
 
