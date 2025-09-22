@@ -19,9 +19,9 @@
 
 ## Citation du jour
 <!--START_QUOTE-->
-Jour 96 🌱 - lundi 22 septembre 2025
+Jour 97 🚀 - 22 September 2025
 
-💬 "Reste motivé et continue — Inconnu"
+💬 ""
 <!--END_QUOTE-->
 
 
