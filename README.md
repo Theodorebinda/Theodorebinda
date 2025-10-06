@@ -19,9 +19,9 @@
 
 ## Citation du jour
 <!--START_QUOTE-->
-Jour 123 💡 - 05 October 2025
+Jour 124 🔥 - lundi 6 octobre 2025
 
-💬 ""
+💬 "Reste motivé et continue — Inconnu"
 <!--END_QUOTE-->
 
 
