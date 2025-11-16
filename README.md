@@ -19,9 +19,9 @@
 
 ## Citation du jour
 <!--START_QUOTE-->
-Jour 205 💡 - 15 November 2025
+Jour 206 🌍 - dimanche 16 novembre 2025
 
-💬 ""
+💬 "Reste motivé et continue — Inconnu"
 <!--END_QUOTE-->
 
 
