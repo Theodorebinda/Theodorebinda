@@ -19,9 +19,9 @@
 
 ## Citation du jour
 <!--START_QUOTE-->
-Jour 213 🔥 - 19 November 2025
+Jour 214 🎉 - jeudi 20 novembre 2025
 
-💬 ""
+💬 "Reste motivé et continue — Inconnu"
 <!--END_QUOTE-->
 
 
