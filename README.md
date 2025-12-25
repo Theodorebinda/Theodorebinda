@@ -19,9 +19,9 @@
 
 ## Citation du jour
 <!--START_QUOTE-->
-Jour 284 🎉 - jeudi 25 décembre 2025
+Jour 285 🌍 - 25 December 2025
 
-💬 "Reste motivé et continue — Inconnu"
+💬 ""
 <!--END_QUOTE-->
 
 
