@@ -19,9 +19,9 @@
 
 ## Citation du jour
 <!--START_QUOTE-->
-Jour 296 ☕ - mercredi 31 décembre 2025
+Jour 297 🧠 - 31 December 2025
 
-💬 "Reste motivé et continue — Inconnu"
+💬 ""
 <!--END_QUOTE-->
 
 
