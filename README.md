@@ -10,12 +10,19 @@
 ![Dart](https://img.shields.io/badge/Dart-00BFFF)
 
 ## Streak
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=Theodorebinda&theme=tokyonight-duo&border_radius=5&locale=fr&date_format=j%20M%5B%20Y%5D)](https://github.com/Theodorebinda)
+<!-- [![GitHub Streak](https://streak-stats.demolab.com/?user=LeonardoRubuz)](https://git.io/streak-stats) -->
+<div align="center">
+  <a href="https://github.com/DenverCoder1/github-readme-streak-stats">
+    <img width="600" src="https://github-readme-streak-stats-eight.vercel.app/?user=LeonardoRubuz&theme=dark" alt="GitHub Streak" />
+  </a>
+</div>
 
 ## Skills
 
 [![My Skills](https://skillicons.dev/icons?i=wordpress,html,css,tailwind,js,ts,py,dart,nodejs,react,nextjs,express,figma,bash,postgres,flutter,mysql&perline=9)](https://skillicons.dev)
+
+
+
 
 ## Citation du jour
 <!--START_QUOTE-->
