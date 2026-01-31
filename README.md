@@ -8,6 +8,8 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-yellow)
 ![TypeScript](https://img.shields.io/badge/TypeScript-blue)
 ![Dart](https://img.shields.io/badge/Dart-00BFFF)
+![Python](https://img.shields.io/badge/Python-00BFFF)
+
 
 ## Streak
 
