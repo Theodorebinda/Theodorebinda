@@ -26,9 +26,9 @@
 
 ## Citation du jour
 <!--START_QUOTE-->
-Jour 357 📚 - 30 January 2026
+Jour 358 ☕ - samedi 31 janvier 2026
 
-💬 ""
+💬 "Reste motivé et continue — Inconnu"
 <!--END_QUOTE-->
 
 
