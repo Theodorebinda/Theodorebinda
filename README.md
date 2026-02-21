@@ -28,9 +28,9 @@
 
 ## Citation du jour
 <!--START_QUOTE-->
-Jour 399 🚀 - 20 February 2026
+Jour 400 ☕ - samedi 21 février 2026
 
-💬 ""
+💬 "Reste motivé et continue — Inconnu"
 <!--END_QUOTE-->
 
 
