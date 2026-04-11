@@ -28,9 +28,9 @@
 
 ## Citation du jour
 <!--START_QUOTE-->
-Jour 498 🌈 - samedi 11 avril 2026
+Jour 499 🚀 - 11 April 2026
 
-💬 "Reste motivé et continue — Inconnu"
+💬 ""
 <!--END_QUOTE-->
 
 
