@@ -28,9 +28,9 @@
 
 ## Citation du jour
 <!--START_QUOTE-->
-Jour 500 💡 - dimanche 12 avril 2026
+Jour 501 🚀 - 12 April 2026
 
-💬 "Reste motivé et continue — Inconnu"
+💬 ""
 <!--END_QUOTE-->
 
 
