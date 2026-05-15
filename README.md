@@ -28,9 +28,9 @@
 
 ## Citation du jour
 <!--START_QUOTE-->
-Jour 566 🌍 - vendredi 15 mai 2026
+Jour 567 🌱 - 15 May 2026
 
-💬 "Reste motivé et continue — Inconnu"
+💬 ""
 <!--END_QUOTE-->
 
 
