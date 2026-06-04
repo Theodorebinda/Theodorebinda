@@ -28,9 +28,9 @@
 
 ## Citation du jour
 <!--START_QUOTE-->
-Jour 605 ☕ - 03 June 2026
+Jour 606 ☕ - jeudi 4 juin 2026
 
-💬 ""
+💬 "Reste motivé et continue — Inconnu"
 <!--END_QUOTE-->
 
 
