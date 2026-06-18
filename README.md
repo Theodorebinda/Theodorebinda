@@ -13,11 +13,7 @@
 
 
 
-<!-- <div align="center"> -->
-  <!-- <a href="https://github.com/DenverCoder1/github-readme-streak-stats"> -->
-    <!-- <img width="600" src="https://github-readme-streak-stats-eight.vercel.app/?user=theodorebinda&theme=whatsapp-dark2&hide_border=true&date_format=j%20M%5B%20Y%5D&card_height=197"alt="Statistique Theodore" /> -->
-  <!-- </a> -->
-<!-- </div> -->
+
 
 ## Skills
 
