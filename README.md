@@ -24,9 +24,9 @@
 
 ## Citation du jour
 <!--START_QUOTE-->
-Jour 700 ✨ - mardi 21 juillet 2026
+Jour 701 🧠 - 21 July 2026
 
-💬 "Reste motivé et continue — Inconnu"
+💬 ""
 <!--END_QUOTE-->
 
 
