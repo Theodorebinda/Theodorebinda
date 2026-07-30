@@ -1,59 +1,65 @@
-name: Fun Daily Commit 🚀
+name: Trois commits quotidiens
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Tous les jours à minuit UTC
+    # Ces crons UTC correspondent à 08 h 15, 14 h 15 et 20 h 15 à Kinshasa.
+    - cron: "15 7 * * *"
+    - cron: "15 13 * * *"
+    - cron: "15 19 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-commit-${{ github.repository }}
+  cancel-in-progress: false
+
 jobs:
-  daily_fun:
+  daily-commit:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      TZ: Africa/Kinshasa
 
     steps:
-      - name: 🛎️ Checkout du dépôt
+      - name: Récupérer le dépôt
         uses: actions/checkout@v4
         with:
+          ref: ${{ github.event.repository.default_branch }}
           persist-credentials: true
           fetch-depth: 0
 
-      - name: 📦 Installer jq
-        run: sudo apt-get update && sudo apt-get install -y jq
+      - name: Installer Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
 
-      - name: ⚙️ Configurer Git
+      - name: Configurer Git
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --local user.email "133812059+Theodorebinda@users.noreply.github.com"
+          git config --local user.name "Theodore SAMBA"
 
-      - name: 🔄 Tirer les dernières modifications
-        run: git pull origin main --rebase
+      - name: Récupérer les dernières modifications
+        env:
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+        run: git pull --rebase origin "$DEFAULT_BRANCH"
 
-      - name: ✍️ Générer et insérer la citation dans README
+      - name: Mettre à jour le README
+        env:
+          DAILY_COMMIT_SLOT: ${{ github.event.schedule }}
+        run: node scripts/update-readme.js
+
+      - name: Créer et pousser le commit
+        env:
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
         run: |
-          set +e
-
-          # Compteur basé sur README
-          if grep -q "Jour [0-9]\+" README.md; then
-            last_count=$(grep -oE 'Jour [0-9]+' README.md | tail -n 1 | grep -oE '[0-9]+' || echo 0)
-            count=$((last_count + 1))
-          else
-            count=1
+          if git diff --quiet -- README.md; then
+            echo "Le commit du jour existe déjà."
+            exit 0
           fi
 
-          # Emojis
-          emojis=("🚀" "🔥" "🌞" "🎉" "✨" "🌈" "💡" "🧠" "🌍" "💻" "☕" "📚" "🌱")
-          emoji=${emojis[$((RANDOM % ${#emojis[@]}))]}
-
-          # Citation (fallback si API KO)
-          quote=$(curl -s https://api.quotable.io/random | jq -r '.content + " — " + .author' || echo "Reste motivé et continue — Inconnu")
-
-          # Texte à insérer
-          new_block="<!--START_QUOTE-->\nJour $count $emoji - $(date '+%d %B %Y')\n\n💬 \"$quote\"\n<!--END_QUOTE-->"
-
-          # Remplacer dans README
-          sed -i "/<!--START_QUOTE-->/, /<!--END_QUOTE-->/c$new_block" README.md
-
-      - name: 💾 Commit & Push
-        run: |
+          commit_date=$(date '+%Y-%m-%d à %H:%M')
           git add README.md
-          git commit -m "✨ Jour $count - Mise à jour citation quotidienne" || echo "Rien à committer"
-          git push origin main
+          git commit -m "chore: mise à jour du ${commit_date}"
+          git push origin "HEAD:${DEFAULT_BRANCH}"
