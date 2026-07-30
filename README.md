@@ -17,7 +17,7 @@
 
 ## Skills
 
-[![My Skills](https://skillicons.dev/icons?i=wordpress,html,css,tailwind,js,ts,py,dart,nodejs,react,nextjs,express,django,figma,bash,postgres,flutter,mysql&perline=9)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=wordpress,html,css,tailwind,js,ts,py,dart,nodejs,react,nextjs,express,django,figma,bash,postgres,aws,gcp,flutter,mysql&perline=9)](https://skillicons.dev)
 
 
 
