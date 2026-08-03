@@ -24,10 +24,10 @@
 
 ## Citation du jour
 <!--START_QUOTE-->
-<!--DAILY_COMMIT_RUNS:2026-08-03|15_7_*_*_*,15_13_*_*_*-->
-Jour 731 🔥 - 3 août 2026
+<!--DAILY_COMMIT_RUNS:2026-08-03|15_7_*_*_*,15_13_*_*_*,15_19_*_*_*-->
+Jour 732 🧠 - 3 août 2026
 
-💬 "La constance donne de la force aux bonnes habitudes."
+💬 "Apprendre, essayer, ajuster, puis recommencer."
 <!--END_QUOTE-->
 
 
