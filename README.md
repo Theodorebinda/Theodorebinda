@@ -24,10 +24,10 @@
 
 ## Citation du jour
 <!--START_QUOTE-->
-<!--DAILY_COMMIT_RUNS:2026-08-12|15_7_*_*_*,15_13_*_*_*,15_19_*_*_*-->
-Jour 758 🧠 - 12 août 2026
+<!--DAILY_COMMIT_RUNS:2026-08-13|15_7_*_*_*-->
+Jour 759 💻 - 13 août 2026
 
-💬 "Apprendre, essayer, ajuster, puis recommencer."
+💬 "Chaque ligne écrite est un pas de plus vers la solution."
 <!--END_QUOTE-->
 
 
