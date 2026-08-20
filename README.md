@@ -24,10 +24,10 @@
 
 ## Citation du jour
 <!--START_QUOTE-->
-<!--DAILY_COMMIT_RUNS:2026-08-19|15_7_*_*_*,15_13_*_*_*,15_19_*_*_*-->
-Jour 779 🔥 - 19 août 2026
+<!--DAILY_COMMIT_RUNS:2026-08-20|15_7_*_*_*-->
+Jour 780 🧠 - 20 août 2026
 
-💬 "Apprendre, essayer, ajuster, puis recommencer."
+💬 "Un petit progrès chaque jour construit de grands résultats."
 <!--END_QUOTE-->
 
 
