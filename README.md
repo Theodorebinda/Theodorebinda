@@ -24,10 +24,10 @@
 
 ## Citation du jour
 <!--START_QUOTE-->
-<!--DAILY_COMMIT_RUNS:2026-08-23|15_7_*_*_*,15_13_*_*_*,15_19_*_*_*-->
-Jour 791 💻 - 23 août 2026
+<!--DAILY_COMMIT_RUNS:2026-08-24|15_7_*_*_*-->
+Jour 792 📚 - 24 août 2026
 
-💬 "Les grands projets avancent grâce aux petits pas répétés."
+💬 "La constance donne de la force aux bonnes habitudes."
 <!--END_QUOTE-->
 
 
