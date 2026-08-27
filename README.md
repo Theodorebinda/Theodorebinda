@@ -24,10 +24,10 @@
 
 ## Citation du jour
 <!--START_QUOTE-->
-<!--DAILY_COMMIT_RUNS:2026-08-26|15_7_*_*_*,15_13_*_*_*,15_19_*_*_*-->
-Jour 800 🌱 - 26 août 2026
+<!--DAILY_COMMIT_RUNS:2026-08-27|15_7_*_*_*-->
+Jour 801 🔥 - 27 août 2026
 
-💬 "La régularité transforme les idées en réalisations."
+💬 "Un petit progrès chaque jour construit de grands résultats."
 <!--END_QUOTE-->
 
 
