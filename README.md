@@ -24,10 +24,10 @@
 
 ## Citation du jour
 <!--START_QUOTE-->
-<!--DAILY_COMMIT_RUNS:2026-08-29|15_13_*_*_*-->
-Jour 805 💻 - 29 août 2026
+<!--DAILY_COMMIT_RUNS:2026-08-29|15_13_*_*_*,15_19_*_*_*-->
+Jour 806 🌞 - 29 août 2026
 
-💬 "Les grands projets avancent grâce aux petits pas répétés."
+💬 "La constance donne de la force aux bonnes habitudes."
 <!--END_QUOTE-->
 
 
