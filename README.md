@@ -24,10 +24,10 @@
 
 ## Citation du jour
 <!--START_QUOTE-->
-<!--DAILY_COMMIT_RUNS:2026-09-02|15_7_*_*_*-->
-Jour 816 🌍 - 2 septembre 2026
+<!--DAILY_COMMIT_RUNS:2026-09-02|15_7_*_*_*,15_13_*_*_*-->
+Jour 817 🔥 - 2 septembre 2026
 
-💬 "La régularité transforme les idées en réalisations."
+💬 "La constance donne de la force aux bonnes habitudes."
 <!--END_QUOTE-->
 
 
