@@ -24,10 +24,10 @@
 
 ## Citation du jour
 <!--START_QUOTE-->
-<!--DAILY_COMMIT_RUNS:2026-09-06|15_7_*_*_*-->
-Jour 828 🌱 - 6 septembre 2026
+<!--DAILY_COMMIT_RUNS:2026-09-06|15_7_*_*_*,15_13_*_*_*-->
+Jour 829 🌈 - 6 septembre 2026
 
-💬 "Les grands projets avancent grâce aux petits pas répétés."
+💬 "La régularité transforme les idées en réalisations."
 <!--END_QUOTE-->
 
 
