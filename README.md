@@ -24,10 +24,10 @@
 
 ## Citation du jour
 <!--START_QUOTE-->
-<!--DAILY_COMMIT_RUNS:2026-09-09|15_7_*_*_*,15_13_*_*_*,15_19_*_*_*-->
-Jour 839 🔥 - 9 septembre 2026
+<!--DAILY_COMMIT_RUNS:2026-09-10|15_7_*_*_*-->
+Jour 840 🧠 - 10 septembre 2026
 
-💬 "Apprendre, essayer, ajuster, puis recommencer."
+💬 "Un petit progrès chaque jour construit de grands résultats."
 <!--END_QUOTE-->
 
 
