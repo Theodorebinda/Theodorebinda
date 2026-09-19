@@ -24,10 +24,10 @@
 
 ## Citation du jour
 <!--START_QUOTE-->
-<!--DAILY_COMMIT_RUNS:2026-09-18|15_7_*_*_*,15_13_*_*_*,15_19_*_*_*-->
-Jour 866 🔥 - 18 septembre 2026
+<!--DAILY_COMMIT_RUNS:2026-09-19|15_7_*_*_*-->
+Jour 867 🎉 - 19 septembre 2026
 
-💬 "Apprendre, essayer, ajuster, puis recommencer."
+💬 "Chaque ligne écrite est un pas de plus vers la solution."
 <!--END_QUOTE-->
 
 
