@@ -24,10 +24,10 @@
 
 ## Citation du jour
 <!--START_QUOTE-->
-<!--DAILY_COMMIT_RUNS:2026-09-19|15_7_*_*_*,15_13_*_*_*,15_19_*_*_*-->
-Jour 869 🌞 - 19 septembre 2026
+<!--DAILY_COMMIT_RUNS:2026-09-20|15_7_*_*_*-->
+Jour 870 🌍 - 20 septembre 2026
 
-💬 "La constance donne de la force aux bonnes habitudes."
+💬 "La régularité transforme les idées en réalisations."
 <!--END_QUOTE-->
 
 
