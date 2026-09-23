@@ -24,10 +24,10 @@
 
 ## Citation du jour
 <!--START_QUOTE-->
-<!--DAILY_COMMIT_RUNS:2026-09-22|15_7_*_*_*,15_13_*_*_*,15_19_*_*_*-->
-Jour 878 💻 - 22 septembre 2026
+<!--DAILY_COMMIT_RUNS:2026-09-23|15_7_*_*_*-->
+Jour 879 📚 - 23 septembre 2026
 
-💬 "Les grands projets avancent grâce aux petits pas répétés."
+💬 "La constance donne de la force aux bonnes habitudes."
 <!--END_QUOTE-->
 
 
