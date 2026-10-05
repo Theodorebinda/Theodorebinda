@@ -24,10 +24,10 @@
 
 ## Citation du jour
 <!--START_QUOTE-->
-<!--DAILY_COMMIT_RUNS:2026-10-04|15_7_*_*_*,15_13_*_*_*,15_19_*_*_*-->
-Jour 912 🔥 - 4 octobre 2026
+<!--DAILY_COMMIT_RUNS:2026-10-05|15_7_*_*_*-->
+Jour 913 🎉 - 5 octobre 2026
 
-💬 "La constance donne de la force aux bonnes habitudes."
+💬 "Apprendre, essayer, ajuster, puis recommencer."
 <!--END_QUOTE-->
 
 
