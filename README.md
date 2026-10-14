@@ -24,10 +24,10 @@
 
 ## Citation du jour
 <!--START_QUOTE-->
-<!--DAILY_COMMIT_RUNS:2026-10-14|15_19_*_*_*-->
-Jour 937 🌞 - 14 octobre 2026
+<!--DAILY_COMMIT_RUNS:2026-10-14|15_19_*_*_*,15_7_*_*_*-->
+Jour 938 🎉 - 14 octobre 2026
 
-💬 "Les grands projets avancent grâce aux petits pas répétés."
+💬 "Apprendre, essayer, ajuster, puis recommencer."
 <!--END_QUOTE-->
 
 
