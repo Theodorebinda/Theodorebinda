@@ -24,10 +24,10 @@
 
 ## Citation du jour
 <!--START_QUOTE-->
-<!--DAILY_COMMIT_RUNS:2026-10-14|15_19_*_*_*,15_7_*_*_*,15_13_*_*_*-->
-Jour 939 💻 - 14 octobre 2026
+<!--DAILY_COMMIT_RUNS:2026-10-15|15_7_*_*_*-->
+Jour 940 ✨ - 15 octobre 2026
 
-💬 "Aujourd'hui est une nouvelle occasion de progresser."
+💬 "La constance donne de la force aux bonnes habitudes."
 <!--END_QUOTE-->
 
 
