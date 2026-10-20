@@ -24,10 +24,10 @@
 
 ## Citation du jour
 <!--START_QUOTE-->
-<!--DAILY_COMMIT_RUNS:2026-10-19|15_7_*_*_*,15_13_*_*_*,15_19_*_*_*-->
-Jour 954 🧠 - 19 octobre 2026
+<!--DAILY_COMMIT_RUNS:2026-10-20|15_7_*_*_*-->
+Jour 955 🚀 - 20 octobre 2026
 
-💬 "Apprendre, essayer, ajuster, puis recommencer."
+💬 "Un petit progrès chaque jour construit de grands résultats."
 <!--END_QUOTE-->
 
 
