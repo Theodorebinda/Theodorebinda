@@ -24,10 +24,10 @@
 
 ## Citation du jour
 <!--START_QUOTE-->
-<!--DAILY_COMMIT_RUNS:2026-10-21|15_7_*_*_*-->
-Jour 958 🔥 - 21 octobre 2026
+<!--DAILY_COMMIT_RUNS:2026-10-21|15_7_*_*_*,15_13_*_*_*-->
+Jour 959 🧠 - 21 octobre 2026
 
-💬 "La régularité transforme les idées en réalisations."
+💬 "La constance donne de la force aux bonnes habitudes."
 <!--END_QUOTE-->
 
 
