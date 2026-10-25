@@ -24,10 +24,10 @@
 
 ## Citation du jour
 <!--START_QUOTE-->
-<!--DAILY_COMMIT_RUNS:2026-10-24|15_7_*_*_*,15_13_*_*_*,15_19_*_*_*-->
-Jour 969 🎉 - 24 octobre 2026
+<!--DAILY_COMMIT_RUNS:2026-10-25|15_7_*_*_*-->
+Jour 970 🌈 - 25 octobre 2026
 
-💬 "Aujourd'hui est une nouvelle occasion de progresser."
+💬 "Les grands projets avancent grâce aux petits pas répétés."
 <!--END_QUOTE-->
 
 
