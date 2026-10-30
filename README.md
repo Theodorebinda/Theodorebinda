@@ -24,10 +24,10 @@
 
 ## Citation du jour
 <!--START_QUOTE-->
-<!--DAILY_COMMIT_RUNS:2026-10-30|15_19_*_*_*-->
-Jour 983 🚀 - 30 octobre 2026
+<!--DAILY_COMMIT_RUNS:2026-10-30|15_19_*_*_*,15_7_*_*_*-->
+Jour 984 🔥 - 30 octobre 2026
 
-💬 "Apprendre, essayer, ajuster, puis recommencer."
+💬 "La régularité transforme les idées en réalisations."
 <!--END_QUOTE-->
 
 
