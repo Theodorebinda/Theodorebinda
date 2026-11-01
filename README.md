@@ -24,10 +24,10 @@
 
 ## Citation du jour
 <!--START_QUOTE-->
-<!--DAILY_COMMIT_RUNS:2026-11-01|15_7_*_*_*-->
-Jour 989 🚀 - 1 novembre 2026
+<!--DAILY_COMMIT_RUNS:2026-11-01|15_7_*_*_*,15_13_*_*_*-->
+Jour 990 💡 - 1 novembre 2026
 
-💬 "Un petit progrès chaque jour construit de grands résultats."
+💬 "Apprendre, essayer, ajuster, puis recommencer."
 <!--END_QUOTE-->
 
 
