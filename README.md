@@ -24,10 +24,10 @@
 
 ## Citation du jour
 <!--START_QUOTE-->
-<!--DAILY_COMMIT_RUNS:2026-11-04|15_19_*_*_*-->
-Jour 997 🌞 - 4 novembre 2026
+<!--DAILY_COMMIT_RUNS:2026-11-04|15_19_*_*_*,15_7_*_*_*-->
+Jour 998 🎉 - 4 novembre 2026
 
-💬 "Les grands projets avancent grâce aux petits pas répétés."
+💬 "Apprendre, essayer, ajuster, puis recommencer."
 <!--END_QUOTE-->
 
 
