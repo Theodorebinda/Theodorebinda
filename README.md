@@ -24,10 +24,10 @@
 
 ## Citation du jour
 <!--START_QUOTE-->
-<!--DAILY_COMMIT_RUNS:2026-11-19|15_19_*_*_*,15_7_*_*_*,15_13_*_*_*-->
-Jour 1042 🌞 - 19 novembre 2026
+<!--DAILY_COMMIT_RUNS:2026-11-20|15_19_*_*_*-->
+Jour 1043 🚀 - 20 novembre 2026
 
-💬 "Les grands projets avancent grâce aux petits pas répétés."
+💬 "Apprendre, essayer, ajuster, puis recommencer."
 <!--END_QUOTE-->
 
 
