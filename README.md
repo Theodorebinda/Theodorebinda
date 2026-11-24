@@ -24,10 +24,10 @@
 
 ## Citation du jour
 <!--START_QUOTE-->
-<!--DAILY_COMMIT_RUNS:2026-11-23|15_19_*_*_*,15_7_*_*_*-->
-Jour 1053 ✨ - 23 novembre 2026
+<!--DAILY_COMMIT_RUNS:2026-11-24|15_13_*_*_*-->
+Jour 1054 📚 - 24 novembre 2026
 
-💬 "La constance donne de la force aux bonnes habitudes."
+💬 "La régularité transforme les idées en réalisations."
 <!--END_QUOTE-->
 
 
