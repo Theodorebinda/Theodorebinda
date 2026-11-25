@@ -24,10 +24,10 @@
 
 ## Citation du jour
 <!--START_QUOTE-->
-<!--DAILY_COMMIT_RUNS:2026-11-24|15_13_*_*_*,15_19_*_*_*,15_7_*_*_*-->
-Jour 1056 🌈 - 24 novembre 2026
+<!--DAILY_COMMIT_RUNS:2026-11-25|15_19_*_*_*-->
+Jour 1057 🌈 - 25 novembre 2026
 
-💬 "Les grands projets avancent grâce aux petits pas répétés."
+💬 "La régularité transforme les idées en réalisations."
 <!--END_QUOTE-->
 
 
