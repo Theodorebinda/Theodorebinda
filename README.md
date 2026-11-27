@@ -24,10 +24,10 @@
 
 ## Citation du jour
 <!--START_QUOTE-->
-<!--DAILY_COMMIT_RUNS:2026-11-27|15_19_*_*_*,15_7_*_*_*-->
-Jour 1064 🌍 - 27 novembre 2026
+<!--DAILY_COMMIT_RUNS:2026-11-27|15_19_*_*_*,15_7_*_*_*,15_13_*_*_*-->
+Jour 1065 🔥 - 27 novembre 2026
 
-💬 "La régularité transforme les idées en réalisations."
+💬 "La constance donne de la force aux bonnes habitudes."
 <!--END_QUOTE-->
 
 
